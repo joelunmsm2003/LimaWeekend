@@ -19,6 +19,12 @@ curl -X POST -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1
 mkdir myapp
 cd vistas
 jitsu install http-server
+sudo pip install python-firebase
+
 
 node bin/http-server
 
+pip install -e git://github.com/mikexstudios/python-firebase.git#egg=python-firebase
+
+
+f = Firebase('https://monitoreo.firebaseio.com/')

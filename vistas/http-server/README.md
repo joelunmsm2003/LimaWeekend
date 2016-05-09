@@ -67,3 +67,11 @@ This will install `http-server` globally so that it may be run from the command 
 `-r` or `--robots` Provide a /robots.txt (whose content defaults to 'User-agent: *\nDisallow: /')
 
 `-h` or `--help` Print this list and exit.
+
+
+
+curl -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhOTk1ZDJjYi0yMjY3LTQ0YWUtODAxNi03MjljZTA2YmZmY2EifQ.685gzlezzh7cQ7SU0KYU2G4WXzF_h0F-c55HBYx-ZO8" https://api.ionic.io/auth/test
+
+
+curl -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhOTk1ZDJjYi0yMjY3LTQ0YWUtODAxNi03MjljZTA2YmZmY2EifQ.685gzlezzh7cQ7SU0KYU2G4WXzF_h0F-c55HBYx-ZO8"  https://api.ionic.io/users
+
